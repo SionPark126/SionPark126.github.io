@@ -4,7 +4,7 @@ body{
     background-origin: content-box;
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: Verdana;
+    font-family: 'Verdana';
 
 }
 h1 {
@@ -33,6 +33,7 @@ td{
 .container{
     background-color: rgba(255,255,255,0.6);
     padding-top: 1.5em;
+    padding-bottom: 1.5em;
 }
 .country{
     padding-bottom: 10px;
