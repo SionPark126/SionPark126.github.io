@@ -1,0 +1,21 @@
+*{
+    margin: 0; 
+    padding: 0;
+    ul, li{list-style: none;}
+}
+body {
+
+}
+#fullpage{
+    height: 1000px;
+    background: blue;
+}
+
+#section01{
+    height: 800px;
+    background: yellow;
+}
+#section02{
+    height: 800px;
+    background: red;
+}
