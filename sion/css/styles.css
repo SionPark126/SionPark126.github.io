@@ -1,21 +1,104 @@
 *{
-    margin: 0; 
+    margin: 0;
     padding: 0;
-    ul, li{list-style: none;}
 }
-body {
+body{
+  font-family: 'PT Sans', sans-serif;
+    background-color: #fffbf8;
+}
 
+a{
+  text-decoration: none;
 }
+
+ul, li{list-style: none;}
+
 #fullpage{
-    height: 1000px;
-    background: blue;
+    height: 100%;
 }
 
 #section01{
-    height: 800px;
+    height: 100%;
     background: yellow;
 }
 #section02{
-    height: 800px;
-    background: red;
+    height: 100%;
+    background-color: #fffbf8;
+}
+
+
+ul{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+#partition li, #workdetails li{
+  width: 33.3%;
+  height: 100%;
+  padding: 0;
+  float:left;
+  /* text-align: center; */
+
+}
+
+#workdetails{
+  overflow: hidden;
+  display: none;
+}
+.square {
+  margin: 0 auto;
+  /* position: absolute;
+  top: 45%; */
+  /* left: 30% */
+  margin-top: 350px;
+  width: 150px;
+  height: 150px;
+  border-radius: 20%;
+  overflow: hidden;
+
+  /* text-align: center; */
+  /* left: 13% */
+
+  /* justify-content: center; */
+}
+
+#resume {
+  background-color: #fed9b4;
+}
+
+#work{
+  background-color: #d6aa80;
+}
+
+#contact {
+  background-color: #a2c0cc;
+}
+
+.square:hover{
+  height: 100%;
+  width: 100%;
+  border-radius: 0;
+  margin-top: 0;
+}
+
+.square:hover> h3{
+  line-height: 850px;
+  font-size: 3em;
+}
+
+h3{
+  line-height: 150px;
+}
+
+.squarelink{
+  display: block;
+  color: white;
+
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  text-align: center;
 }
