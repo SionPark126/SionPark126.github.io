@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 body{
   font-family: 'PT Sans', sans-serif;
     background-color: #fffbf8;
@@ -9,6 +10,7 @@ body{
 
 a{
   text-decoration: none;
+  color: black;
 }
 
 ul, li{list-style: none;}
@@ -23,6 +25,7 @@ ul, li{list-style: none;}
 }
 #section02{
     height: 100%;
+    position: relative;
     background-color: #fffbf8;
 }
 
@@ -33,7 +36,6 @@ ul{
   margin: 0;
   padding: 0;
 
-  list-style: none;
 }
 
 #partition li, #workdetails li{
@@ -41,8 +43,6 @@ ul{
   height: 100%;
   padding: 0;
   float:left;
-  /* text-align: center; */
-
 }
 
 #workdetails{
@@ -60,10 +60,6 @@ ul{
   border-radius: 20%;
   overflow: hidden;
 
-  /* text-align: center; */
-  /* left: 13% */
-
-  /* justify-content: center; */
 }
 
 #resume {
@@ -101,4 +97,17 @@ h3{
   letter-spacing: 0.1em;
   font-weight: bold;
   text-align: center;
+}
+
+.nav{
+  text-align: center;
+}
+
+.nav li{
+  display: inline;
+  padding: 2px;
+}
+
+.nav li a:hover{
+  font-size: 1.2em;
 }
