@@ -5,7 +5,8 @@
 
 body{
   font-family: 'PT Sans', sans-serif;
-    background-color: #fffbf8;
+  background-color: #fffbf8;
+  text-align: center;
 }
 
 a{
@@ -110,4 +111,29 @@ h3{
 
 .nav li a:hover{
   font-size: 1.2em;
+}
+
+form{
+  margin: 0 auto;
+  width: 350px;
+}
+
+textarea, input, button{
+  height: 15px;
+  margin: 7px;
+  width: 100%;
+  padding: 8px;
+  border-radius: 3px;
+  outline: none;
+  -webkit-appearance: none;
+  border: 1px solid #a2c0cc;
+}
+
+textarea {
+  height: 50px;
+}
+
+button{
+  height: 27px;
+  width: 100%;
 }
