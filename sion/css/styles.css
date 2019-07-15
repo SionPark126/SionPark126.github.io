@@ -52,9 +52,6 @@ ul{
 }
 .square {
   margin: 0 auto;
-  /* position: absolute;
-  top: 45%; */
-  /* left: 30% */
   margin-top: 350px;
   width: 150px;
   height: 150px;
@@ -72,7 +69,7 @@ ul{
 }
 
 .others {
-  background-color: #a2c0cc;
+  background-color: #fed9b4;
 }
 
 .square:hover{
@@ -102,8 +99,15 @@ h3{
 
 .nav{
   text-align: center;
-  height: 170px;
-    color: white;
+  /* height: 190px; */
+  color: white;
+  padding: 40px 0 ;
+}
+
+.nav img{
+  width: 230px;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .nav li, .nav li a{
@@ -130,7 +134,7 @@ textarea, input, button{
   border-radius: 3px;
   outline: none;
   -webkit-appearance: none;
-  border: 1px solid #a2c0cc;
+  border: 1px solid #d6aa80;
 }
 
 textarea {
@@ -182,6 +186,36 @@ button{
 
 .icons li img:hover{
   opacity: 0.3;
+}
+.box2{
+  width: 400px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.resumeButtons li{
+  float: left;
+  padding: 10px;
+}
+
+.resumeButtons li button{
+  height: 40px;
+  width: 160px;
+  background-color: #d6aa80;
+}
+.resumeButtons li button a{
+  color: white;
+  font-size: 1.2em;
+}
+
+.resumeButtons li button:hover{
+  border: 1px solid #d6aa80;
+
+  background-color: transparent;
+}
+
+.resumeButtons li button:hover a{
+  color: #d6aa80;
 }
 
 /* .icons li img:hover + .word{
