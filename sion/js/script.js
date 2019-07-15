@@ -46,13 +46,13 @@ $(document).ready(function() {
         location.href = $(this).attr("data-link");
     });
 
-    $(".icons li img").hover(function(){
-      $(this).siblings().css("visibility","visible");
-    });
-
-    $(".icons li img").mouseout(function(){
-      $(this).siblings().css("visibility","hidden");
-    });
+    // $(".icons li img").hover(function(){
+    //   $(this).siblings().css("visibility","visible");
+    // });
+    //
+    // $(".icons li img").mouseout(function(){
+    //   $(this).siblings().css("visibility","hidden");
+    // });
 
 
 });

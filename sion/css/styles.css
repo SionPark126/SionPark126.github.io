@@ -5,8 +5,9 @@
 
 body{
   font-family: 'PT Sans', sans-serif;
-  background-color: #fffbf8;
+
   text-align: center;
+  font-size: 1.2em;
 }
 
 a{
@@ -152,20 +153,31 @@ button{
   padding-bottom: 20px;
 }
 
+.box2{
+  width: 460px;
+  margin: 0 auto;
+  /* text-align: justify; */
+}
+
 .profile{
   margin: 20px;
 }
-
-.icons li {
-  float: left;
-  width: 33.3%;
-  position: relative;
+.icons{
+  margin-top: 20px;
 }
-.icons li img{
-  width: 100px;
-  height: 100px;
+.icons li{
+  padding: 7px;
+  text-align: justify;
+}
+.icons li p{
+  width: 330px;
+  float: right;
+  line-height: 40px;
+}
 
-  cursor: pointer;
+.icons li img{
+  height: 40px;
+  /* float: left; */
 }
 
 .word {
@@ -184,14 +196,8 @@ button{
   visibility: hidden;
 }
 
-.icons li img:hover{
-  opacity: 0.3;
-}
-.box2{
-  width: 400px;
-  margin: 0 auto;
-  text-align: justify;
-}
+
+
 
 .resumeButtons li{
   float: left;
