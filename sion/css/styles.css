@@ -63,15 +63,15 @@ ul{
 
 }
 
-#resume {
-  background-color: #fed9b4;
-}
-
-#work{
+.aboutme {
   background-color: #d6aa80;
 }
 
-#contact {
+.projects{
+  background-color: #a2c0cc;
+}
+
+.others {
   background-color: #a2c0cc;
 }
 
@@ -102,9 +102,12 @@ h3{
 
 .nav{
   text-align: center;
+  height: 170px;
+    color: white;
 }
 
-.nav li{
+.nav li, .nav li a{
+  color: white;
   display: inline;
   padding: 2px;
 }
