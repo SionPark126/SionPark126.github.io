@@ -110,7 +110,7 @@ h3{
 }
 
 .nav li a:hover{
-  font-size: 1.2em;
+  font-weight: bold;
 }
 
 form{
@@ -136,4 +136,12 @@ textarea {
 button{
   height: 27px;
   width: 100%;
+}
+
+.box{
+  width: 700px;
+  margin: 0 auto;
+}
+.leftbox{
+  float: left;
 }
