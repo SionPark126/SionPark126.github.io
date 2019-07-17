@@ -23,7 +23,7 @@ ul, li{list-style: none;}
 
 #section01{
     height: 100%;
-    background: blue;
+    background: #5b899b;
 }
 #section02{
     height: 100%;
@@ -67,9 +67,11 @@ ul{
 
 .projects{
   background-color: #a2c0cc;
+  /* background-color: #5b899b; */
 }
 
 .others {
+  /* background-color: #cf8682; */
   background-color: #fed9b4;
 }
 
@@ -115,6 +117,7 @@ h3{
   color: white;
   display: inline;
   padding: 2px;
+  font-size: 0.9em;
 }
 
 .nav li a:hover{
@@ -224,6 +227,46 @@ button{
   color: #d6aa80;
 }
 
+.project {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+    background: url(../image/geoquiz.jpg) center center no-repeat;
+    background-attachment:cover;
+    overflow:hidden;
+    text-align: center;
+
+}
+.project:hover .show{
+    visibility: visible;
+}
+
+.skills{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+/* .skills ul{
+  margin-bottom: 40px;
+} */
+/* .skills img{
+  width: 220px;
+} */
+.skills ul li{
+  float: left;
+  Width: 50%;
+}
+/* .skills ul li:nth-child(even){
+  width: 100%;
+} */
+.skills ul li img{
+  width: 220px;
+}
+.skills ul li img:hover{
+  width: 240px;
+}
 /* .icons li img:hover + .word{
   visibility: visible;
 } */
