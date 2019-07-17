@@ -1,0 +1,460 @@
+* { margin:0; padding:0; list-style:none; }
+html, body {
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+}
+a {text-decoration: none; }
+
+
+div.container { 	
+	margin:0 auto;
+	position:relative;
+    padding-top: 50px;	
+}
+
+ul.bg {width: 1500px; height: 100%;overflow:hidden; position: relative; }
+
+ul.bg li {
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: right -150px bottom -180px;
+    background-attachment:fixed;
+    background-size: 60%;
+}
+
+ul.bg li:nth-child(1) {
+    background-image: url(../image/text/bucketbag_front.jpg);
+    background-size: 55%;
+}
+
+ul.bg li:nth-child(2) {
+    background-image: url(../image/text/ladybag_front.jpg);
+}
+
+ul.bg li:nth-child(3) {
+    background-image: url(../image/text/totebag_front.jpg);
+}
+
+ul.bg li:nth-child(4) {
+    background-image: url(../image/text/backpack_front.jpg);
+    background-size: 60%;
+    
+}
+
+ul.bg li:nth-child(5) {
+    background-image: url(../image/text/crossbody_front.jpg);
+    
+    
+}
+
+ul.bg li:nth-child(6) {
+    background-image: url(../image/text/wallet_front.jpg);
+    background-size: 65%;
+    
+}
+
+nav {
+    width:200px;
+    height: 100%;
+    position: absolute;
+    background:#f5ccc4;
+    z-index: 9999;
+    display: none;
+    position: fixed;
+}
+nav.on {
+    display: block;
+}
+
+.nav_icon {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 145px;
+    top: 80px;
+    z-index: 999999;
+    display: block;
+    cursor: pointer;
+    
+    
+}
+
+.nav_icon > .navicon .line{
+    position: absolute;
+    height: 2px;
+    background-color: #000;
+    width: 100%;
+}
+
+.nav_icon > .navicon .line.one{
+    top: 10%;
+}
+
+.nav_icon > .navicon .line.two{
+    top: 50%;
+    margin-top: -1px;
+}
+
+.nav_icon > .navicon .line.three{
+    top: 90%;
+    margin-top: -2px;
+}
+
+
+.nav_icon > .navicon.close:hover .line {
+    background-color: #e8e8e8;
+    display: block;
+}
+.nav_icon > .navicon.close .line{
+    background-color: #fff;
+}
+.nav_icon > .navicon.close .line.one{
+    transform: rotate(45deg);
+    top: 50%;
+}
+.nav_icon > .navicon.close .line.two{
+    opacity: 0;
+}
+.nav_icon > .navicon.close .line.three{
+    transform: rotate(-45deg);
+    top: 50%;
+    margin-top: 0px;
+}
+
+.nav_box {
+    padding-right: 30px;
+    text-align: right;
+    color: white;
+    margin-top: 150px;
+}
+
+
+.nav_box > ul.gnb li a {
+    color: white;
+    line-height: 40px;
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+.nav_box > ul.gnb li a:hover {
+    
+    color: #e5e5e5;
+    transition: all 0.8 linear;
+}
+
+
+.nav_box > ul.gnb li > ul.col_gnb {
+    margin-bottom: 5px;
+}
+.nav_box > ul.gnb li > ul.col_gnb li a {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+#collection_bagslide, #view_detail > .detail_box > .detail {
+    -webkit-transition: all 0.5s ease-out;
+}
+#collection_bagslide.on, #view_detail > .detail_box > .detail.on {
+    margin-left: 200px;
+}
+
+header {
+
+    top: 65px;
+    position: absolute; 
+    z-index: 99999;
+    left: 50%;
+    margin-left: -182px;
+}
+
+header > a > img{
+    width: 364px;
+    height: 57px; 
+}
+
+div.slide { 
+
+	overflow:hidden;
+	position:absolute;
+    width: 960px; 
+    top: 200px;
+}
+
+ul.bag { 
+    overflow:hidden; 
+    position:relative; 
+    text-align: center;
+    margin-top: 150px;
+    width: 960px;
+    
+    
+}
+ul.bag li {
+    float:left; 
+    text-align:justify;
+    
+}
+
+ul.bag li p {
+    padding-left: 160px;
+}
+
+ul.bag li p.bag{
+    font-weight: bold; 
+    font-size: 16px;
+}
+
+ul.bag li p.ex {
+    
+    width: 500px; 
+    height: 50px;
+    margin: 20px 0;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+    font-size:12px;
+    //font바꾸기!!!!
+}
+
+ul.bag li p > a {
+    
+    background-color: #414141; 
+    color: white; 
+    display: block; 
+    border: 1px solid #333; 
+    height: 30px; 
+    width: 180px;  
+    line-height: 30px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 50px;
+}
+
+
+ul.bag li p > a:hover {
+    background: black; 
+    color: white;
+}
+
+
+
+div.button { width: 100%; position:absolute; top: 50%; margin-top: 70px; z-index:100; cursor:pointer;}
+div.button > div.prev {float: left;}
+div.button > div.next {float: right;}
+
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > li {
+  float:left;
+  width:100%;
+  position: relative;
+}
+
+
+div.bg_slide {
+    overflow:hidden;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+
+#view_detail{
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(54, 54, 54, 0.8);
+    top: 0;
+    overflow: hidden;
+    opacity:0;
+    display: none;
+}
+
+.detail_box{
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    margin-top: -175px;
+    overflow: hidden;
+    
+}
+
+#view_detail > .detail_box > .detail {
+    width: 600px;
+    height: 330px;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+    z-index: 999999;
+}
+
+
+#view_detail > .detail_box > .detail > .close > a {
+    position: absolute;
+    right:25px;
+    top:25px;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+    color:#606060;
+}
+
+
+#view_detail > .detail_box > .detail >.detail_txt {
+    width: 500px;
+    height: 250px; 
+    margin: 0 auto;
+    position: relative;
+    top:45px;
+}
+
+
+
+.detail_txt > .bag_pic {
+    float: left;
+    
+}
+
+.detail_txt > .bag_pic > img{
+    width: 210px;
+    height: 210px;
+    margin-top: 23px;
+
+}
+
+
+.detail_txt > .mid_line {
+    position: absolute;
+    left: 50%;
+    width: 1px;
+    height: 240px;
+    background: black;
+    margin-top:5px;
+
+}
+
+.detail_txt > .info {
+    float: right;
+    text-align: justify;
+    margin-top: 47px;
+    margin-right: 25px;
+}
+.detail_txt > .info > ul > li:nth-child(1) {
+    font-size: 12px;
+}
+
+
+.detail_txt > .info > ul > li:nth-child(2) {
+
+    line-height: 2em;
+    font-size: 12px;
+    color: #646464;
+}
+
+.detail_txt > .info > ul > li:nth-child(3) {
+    font-size: 12px;
+    margin: 25px 0;
+    
+}
+
+.detail_txt > .info > ul > li:nth-child(4) {
+    margin-bottom: 10px;
+    font-size: 12px;
+    
+}
+
+.detail_txt > .info > ul > li > ul.color  {
+    overflow:hidden;
+    margin: 5px 0;
+}
+.detail_txt > .info > ul > li > ul.color > li{
+    float: left;
+    margin: 6px 5px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+
+.detail_txt > .info > ul > li > ul.color > li:nth-child(1) {
+    background: #ffd6d6;
+    margin-left: 0;
+}
+.detail_txt > .info > ul > li > ul.color > li:nth-child(2) {
+    background: #033c0a;
+}
+.detail_txt > .info > ul > li > ul.color > li:nth-child(3) {
+    background: #e45050;
+}
+.detail_txt > .info > ul > li > ul.color > li:nth-child(4) {
+    background: #ff9999;
+}
+.detail_txt > .info > ul > li > ul.color > li:nth-child(5) {
+    background: #05095a;
+}
+.detail_txt > .info > ul > li > ul.color > li:nth-child(6) {
+    background: #d05b32;
+}
+.detail_txt > .info > ul > li > ul.color > li:nth-child(7) {
+    background: #f6bf95;
+}
+.detail_txt > .info > ul > li > ul.color > li:nth-child(8) {
+    background: #000000;
+}
+
+
+
+.detail_txt > .info > ul > li > ul.color > li:hover {
+    opacity: 1;
+    
+}
+.detail_txt > .info > ul > li > ul.photodetail {
+    overflow: hidden;
+
+}
+
+.detail_txt > .info > ul > li > ul.photodetail > li{
+    width: 35px;
+    height: 35px;
+    
+    float: left;
+    margin-right: 20px;
+    display:block;
+    cursor: pointer;
+    opacity: 0.6;
+    
+}
+.detail_txt > .info > ul > li > ul.photodetail > li:hover {
+    opacity: 1;
+}
+
+
+.detail_txt > .info > ul > li > ul.photodetail > li > img{
+    width: 33px;
+    height: 33px;
+
+}
+
+.detail_txt > .info > ul > li > ul.photodetail > li:nth-child(3){
+    margin-right: 0px;
+}
+
+
+
+/*my_ex 4_자막갤러리.html*/

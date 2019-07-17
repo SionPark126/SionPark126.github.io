@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  font-family: 'PT Sans', sans-serif;
+
+  text-align: center;
+  font-size: 1.2em;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+ul, li{list-style: none;}
+
+#fullpage{
+    height: 100%;
+}
+
+#section01{
+    height: 100%;
+    background: #5b899b;
+}
+#section02{
+    height: 100%;
+    position: relative;
+    background-color: #fffbf8;
+}
+
+
+ul{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+#partition li, #workdetails li{
+  width: 33.3%;
+  height: 100%;
+  padding: 0;
+  float:left;
+}
+
+#workdetails{
+  overflow: hidden;
+  display: none;
+}
+.square {
+  margin: 0 auto;
+  margin-top: 350px;
+  width: 150px;
+  height: 150px;
+  border-radius: 20%;
+  overflow: hidden;
+
+}
+
+.aboutme {
+  background-color: #d6aa80;
+}
+
+.projects{
+  background-color: #a2c0cc;
+  /* background-color: #5b899b; */
+}
+
+.others {
+  /* background-color: #cf8682; */
+  background-color: #fed9b4;
+}
+
+.square:hover{
+  height: 100%;
+  width: 100%;
+  border-radius: 0;
+  margin-top: 0;
+}
+
+.square:hover> h3{
+  line-height: 850px;
+  font-size: 3em;
+}
+
+h3{
+  line-height: 150px;
+}
+
+.squarelink{
+  display: block;
+  color: white;
+
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nav{
+  text-align: center;
+  /* height: 190px; */
+  color: white;
+  padding: 40px 0 ;
+}
+
+.nav img{
+  width: 230px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.nav li, .nav li a{
+  color: white;
+  display: inline;
+  padding: 2px;
+  font-size: 0.9em;
+}
+
+.nav li a:hover{
+  font-weight: bold;
+}
+
+button{
+  border-radius: 3px;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+/* About me page */
+/* form{
+  margin: 0 auto;
+  width: 350px;
+}
+
+textarea, input, button{
+  height: 15px;
+  margin: 7px;
+  width: 100%;
+  padding: 8px;
+  border-radius: 3px;
+  outline: none;
+  -webkit-appearance: none;
+  border: 1px solid #d6aa80;
+}
+
+textarea {
+  height: 50px;
+}
+
+button{
+  height: 27px;
+  width: 100%;
+} */
+
+.box{
+  width: 800px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.box2{
+  width: 460px;
+  margin: 0 auto;
+  /* text-align: justify; */
+}
+
+.profile{
+  margin: 20px;
+}
+.icons{
+  margin-top: 20px;
+}
+.icons li{
+  padding: 7px;
+  text-align: justify;
+}
+.icons li p{
+  width: 330px;
+  float: right;
+  line-height: 40px;
+}
+
+.icons li img{
+  height: 40px;
+  /* float: left; */
+}
+
+.word {
+  position: absolute;
+  /* display: none; */
+  z-index: 999;
+
+  width: 100px;
+  height: 100px;
+  top: 35px;
+
+  color: #d6aa80;
+  font-weight: bold;
+  font-size: 1.3em;
+
+  visibility: hidden;
+}
+
+
+
+
+.resumeButtons li{
+  float: left;
+  padding: 10px;
+}
+
+.resumeButtons li button{
+  height: 40px;
+  width: 160px;
+  background-color: #d6aa80;
+
+}
+.resumeButtons li button a{
+  color: white;
+  font-size: 1.2em;
+}
+
+.resumeButtons li button:hover{
+  border: 1px solid #d6aa80;
+
+  background-color: transparent;
+}
+
+.resumeButtons li button:hover a{
+  color: #d6aa80;
+}
+
+.project {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+    background: url(../image/geoquiz.jpg) center center no-repeat;
+    background-attachment:cover;
+    overflow:hidden;
+    text-align: center;
+    /* visibility: hidden; */
+
+    margin-top: 80px;
+}
+/* .show{
+  visibility: hidden;
+} */
+.project:hover{
+    visibility: visible;
+}
+
+.show button{
+  width: 200px;
+  height: 40px;
+  background-color: #5b899b;
+}
+.show button a{
+  color: white;
+}
+
+.skills{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.skills ul{
+  height: 240px;
+}
+.skills img{
+  width: 220px;
+}
+.skills img:hover{
+  width: 230px;
+}
+.skills ul li{
+  float: left;
+  Width: 50%;
+}
+.skills ul:nth-child(even) li{
+  width: 100%;
+}
+/* .skills ul li:nth-child(even){
+  width: 100%;
+  margin: 0 auto;
+} */
+.skills ul li img{
+  width: 220px;
+}
+.skills ul li img:hover{
+  width: 230px;
+}
+/* .icons li img:hover + .word{
+  visibility: visible;
+} */
