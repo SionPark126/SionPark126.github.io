@@ -214,14 +214,14 @@ button{
 }
 
 .resumeButtons li button{
-  height: 40px;
-  width: 160px;
+  height: 50px;
+  width: 170px;
   background-color: #d6aa80;
 
 }
 .resumeButtons li button a{
   color: white;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 .resumeButtons li button:hover{
