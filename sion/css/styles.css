@@ -124,8 +124,14 @@ h3{
   font-weight: bold;
 }
 
+button{
+  border-radius: 3px;
+  outline: none;
+  -webkit-appearance: none;
+}
+
 /* About me page */
-form{
+/* form{
   margin: 0 auto;
   width: 350px;
 }
@@ -148,7 +154,7 @@ textarea {
 button{
   height: 27px;
   width: 100%;
-}
+} */
 
 .box{
   width: 800px;
@@ -211,6 +217,7 @@ button{
   height: 40px;
   width: 160px;
   background-color: #d6aa80;
+
 }
 .resumeButtons li button a{
   color: white;
@@ -236,10 +243,24 @@ button{
     background-attachment:cover;
     overflow:hidden;
     text-align: center;
+    /* visibility: hidden; */
 
+    margin-top: 80px;
 }
-.project:hover .show{
+/* .show{
+  visibility: hidden;
+} */
+.project:hover{
     visibility: visible;
+}
+
+.show button{
+  width: 200px;
+  height: 40px;
+  background-color: #5b899b;
+}
+.show button a{
+  color: white;
 }
 
 .skills{
@@ -248,24 +269,31 @@ button{
   margin-top: 40px;
 }
 
-/* .skills ul{
-  margin-bottom: 40px;
-} */
-/* .skills img{
+.skills ul{
+  height: 240px;
+}
+.skills img{
   width: 220px;
-} */
+}
+.skills img:hover{
+  width: 230px;
+}
 .skills ul li{
   float: left;
   Width: 50%;
 }
+.skills ul:nth-child(even) li{
+  width: 100%;
+}
 /* .skills ul li:nth-child(even){
   width: 100%;
+  margin: 0 auto;
 } */
 .skills ul li img{
   width: 220px;
 }
 .skills ul li img:hover{
-  width: 240px;
+  width: 230px;
 }
 /* .icons li img:hover + .word{
   visibility: visible;
