@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  font-family: 'PT Sans', sans-serif;
+    background-color: #fffbf8;
+    height: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+ul, li{list-style: none;}
+button {
+    width: 200px;
+    height: 40px;
+    background: #a2c0cc;
+    border: 1px solid #a2c0cc;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 0.3em;
+    font-size: 0.8em;
+
+}
+button:hover {
+    background: transparent;
+    color: #5b899b;
+    border: 1px solid #5b899b;
+}
+
+#fullpage{
+    height: 100%;
+}
+
+#section01{
+    height: 100%;
+    text-align: center;
+    background: #5b899b;
+}
+#section02{
+    height: 100%;
+    position: relative;
+    background-color: #fffbf8;
+}
+.mainlogo{
+    margin-top: -100px
+}
+
+ul{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+#partition li, #workdetails li{
+  width: 33.3%;
+  height: 100%;
+  padding: 0;
+  float:left;
+}
+
+#workdetails{
+  overflow: hidden;
+  display: none;
+}
+.square {
+  margin: 0 auto;
+  /* position: absolute;
+  top: 45%; */
+  /* left: 30% */
+  margin-top: 350px;
+  width: 150px;
+  height: 150px;
+  border-radius: 20%;
+  overflow: hidden;
+
+}
+
+#resume {
+  background-color: #fed9b4;
+}
+
+#work{
+  background-color: #d6aa80;
+}
+
+#contact {
+  background-color: #a2c0cc;
+}
+
+.square:hover{
+  height: 100%;
+  width: 100%;
+  border-radius: 0;
+  margin-top: 0;
+}
+
+.square:hover> h3{
+  line-height: 850px;
+  font-size: 3em;
+}
+
+h3{
+  line-height: 150px;
+}
+
+.squarelink{
+  display: block;
+  color: white;
+
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*+++++++WORK PAGE+++++++++++*/
+
+
+
+
+
+.nav{
+  text-align: center;
+    padding: 50px 0 ;
+    background: #5b899b;
+
+    width: 100%;
+
+    
+}
+.logo {
+    width: 200px;
+    padding: 0 30px 30px 30px;
+    
+}
+
+.nav li{
+  display: inline;
+  padding:0 5px;
+    color: white;
+
+}
+.nav li a {color: white;}
+.nav li a:hover{
+  font-weight: bold;
+}
+.worknav {
+    background:#5b899b;
+}
+
+
+
+
+
+/*+++*/
+.fullpage {
+    overflow:none;
+    text-align: center;
+    
+}
+section{
+    width: 100%;
+    height: 100%;
+    background:white;
+
+
+}
+
+
+.worktxt {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+    background: url(../image/geoquiz.jpg) center center no-repeat;
+    background-attachment:cover;
+    overflow:hidden;
+    text-align: center;
+
+}
+.worktxt:hover .show{
+    visibility: visible;
+}
+
+
+ h4{
+    font-size:3em;
+    color: #a2c0cc;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+     
+}
+.worktxt h5 {
+    line-height: 1.6em;
+    font-size: 1.3em;
+    color: #5b899b;
+}
+.worktxt p, .worktxt h5{
+    line-height: 1.em;
+    text-align: justify;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.worktxt p {
+    margin-bottom: 10px;
+}
+
+.ab {
+    height: 300px;
+    width: 520px; 
+    position: absolute;
+    top: 50%; 
+    margin-top: -150px;
+    left: 50%;
+    margin-left: -260px;
+}
+.show{
+    visibility: hidden;
+}
+.imgcenter{
+    margin: 0 auto;
+    
+    
+}
+
+.worktxt_02{
+    background: url(../image/pinblue.jpg) center center no-repeat;
+
+}
