@@ -11,22 +11,58 @@
 	<script src="plugin/vendors/jquery.easings.min.js"></script>
 	<script type="text/javascript" src="plugin/vendors/jquery.slimscroll.min.js"></script>
 	<script type="text/javascript" src="plugin/jquery.fullPage.js"></script>
+    <script>
+    $(document).ready(function(){
 
+  
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        window.location.hash = hash;
+      });
+    } 
+  });
+
+    $(document).ready(function(){
+	
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.scrollToTop').fadeIn();
+		} else {
+			$('.scrollToTop').fadeOut();
+		}
+	});
+	
+	$('.scrollToTop').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	});
+	
+});
+
+    
+});
+        </script>
 </head>
 
 <body>
-  <div class="nav" style="background-color: #5b899b;">
-    <a href="index.html"><img src="images/logo_white.png" alt="logo"/></a>
+  <div class="nav" style="background-color: #89a5b1;">
+    <a href="index.html" ><img src="images/logo_white.png" alt="logo"/></a>
     <ul>
       <li><a href="aboutme.html"> ABOUT ME</a></li>
       <li> |</li>
       <li><a href="projects.html" style="font-weight: bold;">  PROJECTS</a></li>
       <li>|</li>
-      <li><a href="others.html">  OTHERS</a></li>
+      <li><a href="others.html"> SKILLS</a></li>
     </ul>
   </div>
     <div class="box">
-      <section class="project">
+      <section class="project project01">
           <div class="show">
          <!-- <img class="imgcenter" src="image/geoquiz_hover.jpg" alt=""> -->
           <div class="ab">
@@ -43,14 +79,14 @@
 
                    <h5>Tools and Resources Used:</h5>
                   <p>
-                     Javascript, HTML, CSS, Digital Ocean, MongoDB, Openlayers API, Canvas API</p>
+                     <em>Javascript, HTML, CSS, Digital Ocean, MongoDB, Openlayers API, Canvas API</em></p>
                   <br/>
-                  <button><a href="https://github.com/SionPark126/geoquiz-application">LEARN MORE ></a></button>
+                  <button><a href="https://github.com/SionPark126/geoquiz-application" target="_blank">LEARN MORE ></a></button>
                 </div>
           </div>
       </section>
 
-      <section class="project">
+      <section class="project project02 bluebg">
          <div class="show">
         <img class="imgcenter" src="image/pinblue_hover.jpg" alt="">
          <div class="ab">
@@ -69,12 +105,12 @@
 
                   <h5>Tools and Resources Used:</h5>
                  <p>
-                    Javascript, HTML, CSS, Electron, Phaser.js</p>
+                    <em>Javascript, HTML, CSS, Electron, Phaser.js</em></p>
                  <br/>
-                 <button><a href="https://github.com/SionPark126/geoquiz-application">LEARN MORE ></a></button> </div>
+                 <button><a href="https://github.com/SionPark126/geoquiz-application" target="_blank">LEARN MORE ></a></button> </div>
          </div>
      </section>
-     <section class="project">
+     <section class="project project03">
         <div class="show">
        <img class="imgcenter" src="image/pinblue_hover.jpg" alt="">
         <div class="ab">
@@ -90,11 +126,14 @@
 
                  <h5>Tools and Resources Used:</h5>
                 <p>
-                   Google API, Javascript, HTML, CSS, </p>
+                   <em>Google API, Javascript, HTML, CSS </em></p>
                 <br/>
-                <button><a href="https://github.com/SionPark126/geoquiz-application">LEARN MORE ></a></button> </div>
+                </div>
+            <button><a href="https://github.com/SionPark126/geoquiz-application" target="_blank">LEARN MORE ></a></button> 
         </div>
     </section>
+       
+        
                 <!-- <ul>
 
                    <li>
@@ -109,5 +148,10 @@
                  </ul> -->
 
 	</div>
+<a href="#" class="scrollToTop">^ <br/> TOP</a>
+     <footer style="background-color:rgba(137, 165, 177, 0.51);">
+    <p>
+        ©2019 SIONPARK All Rights Reserved</p>
+</footer>
 </body>
 </html>
