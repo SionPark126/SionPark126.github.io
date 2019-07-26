@@ -17,8 +17,8 @@ a{
 
 ul, li{list-style: none;}
 h4{
-        font-size: 2.5em;
-    letter-spacing: 0.1em;
+    font-size: 2.5em;
+    letter-spacing: 0.05em;
     margin-bottom: 30px;
     font-weight: 1.5em;
 }
@@ -129,15 +129,17 @@ button{
    text-align: center;
     margin: 100px auto;
     width: 90%;
-    
+background:rgba(252, 232, 213, 0.13) !important;
+    padding-bottom:50px;
+    padding-top:30px;
+    color:#141414;
 }
 
 
 .aboutbox li:nth-child(1) img {
     width:350px;
     margin: 0 auto;
-    -webkit-animation: extxt 2s linear;
-    
+    -webkit-animation: extxt 2s linear; 
 
 }
 .aboutbox li:nth-child(2){
@@ -145,34 +147,38 @@ button{
     width: 70%;
     margin:0 auto;
     min-width:300px;
-    padding: 80px;
+    padding: 60px 0 80px 0;
     margin-top: 50px;
-    background:rgba(252, 232, 213, 0.13);
+    
    
 
 }
 .aboutbox h4{
     color: #d4b597;
+    margin-bottom:0;
+    padding-top:30px;
 
 }
 .aboutbox p {
     width:80%;
+    max-width: 700px;
     margin:0 auto;
     line-height: 30px;
     text-align:center;
 }
 .info {
     padding: 20px 0;
+    padding-top:0; 
+    text-align:center !important;
 }
-.fullstack {
-    font-size: 1.3em;
-    font-style: italic;
+.cta {
+    padding-top: 50px;
 }
 .cta button{
     border: none;
     background:#eac19b;
     border: 1px solid #eac19b;
-    margin: 10px 10px;
+    margin: 10px;
 }
 .cta button a {
     display: block;
