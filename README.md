@@ -13,10 +13,12 @@ pronounced She-on :)
 
 **Software Developer, *Faithlife LLC*** (December 2019 – Present, Bellingham WA)
 
-- Design and implement Restful API using openAPI Specification.
+- Design and implement Restful API and add new routes using openAPI Specification.
+- Participate in scrum meetings to update the team and prepare demo for the finished project.
 - Build and maintain web applications and services built using .NET framework.
-- Maintain data loaders and help troubleshoot when data is not up to date.
-- Send real-time internal data feeds into client’s systems by implementing Workato and Zapier integration.
+- Provide daily operational support for production systems and services that our team owns including on-call support and bug fixes.
+- Maintain data loaders for data warehouse and operational data store and troubleshoot when data is not up to date.
+- Implement integration for applications such as Workato, Zapier, and HubSpot to send internal data to client’s management systems near real-time.
 
 **Software Developer Intern, *Faithlife LLC*** (October – December 2019, Bellingham WA)
 
