@@ -2,7 +2,7 @@
 ---
 pronounced She-on :)
 
-[ [sionpark.github.io](https://so-park.github.io) ] . [ [linkedIn](https://www.linkedin.com/in/sion-park) ] .[ sopark126@gmail.com ] . [ 253 457 9280 ]
+[ [so-park.github.io](https://so-park.github.io) ] . [ [linkedIn](https://www.linkedin.com/in/sion-park) ] .[ sopark126@gmail.com ] . [ 253 457 9280 ]
 
 ## Skills
 
