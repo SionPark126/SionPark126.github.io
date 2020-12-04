@@ -1,17 +1,18 @@
 # Sion Park
-[pronounced She-on :)]
+pronounced She-on :)
 
 [ [sionpark.github.io](https://so-park.github.io) ] . [ [linkedIn](https://www.linkedin.com/in/sion-park) ] .[ sopark126@gmail.com ] . [ 253 457 9280 ]
 
 ## Skills
 
-----
+---
+
 - **Languages**: C#, C++, SQL, C, Linq, JavaScript, Python
 - **Technology**: Visual Studio, MSSMS, MySQL, Full Stack Development, Visual Studio Code, Unity, nodejs(Express), Github, Jenkins
 
 ## Experience
 
-----
+---
 
 **Software Developer, *Faithlife LLC*** (December 2019 – Present, Bellingham WA)
 
@@ -46,7 +47,7 @@
 
 ## Projects
 
-----
+---
 
 **[Letter Run](https://github.com/so-park/letterrun)** (January – June 2019)
 
@@ -72,7 +73,7 @@
 
 ## Education
 
-----
+---
 
 **Seattle Pacific University, Seattle, WA** (September 2015 - June 2019)
 
