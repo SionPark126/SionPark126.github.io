@@ -1,4 +1,5 @@
 # Sion Park
+---
 pronounced She-on :)
 
 [ [sionpark.github.io](https://so-park.github.io) ] . [ [linkedIn](https://www.linkedin.com/in/sion-park) ] .[ sopark126@gmail.com ] . [ 253 457 9280 ]
@@ -9,8 +10,6 @@ pronounced She-on :)
 - **Technology**: Visual Studio, MSSMS, MySQL, Full Stack Development, Visual Studio Code, Unity, nodejs(Express), Github, Jenkins
 
 ## Experience
-
----
 
 **Software Developer, *Faithlife LLC*** (December 2019 – Present, Bellingham WA)
 
@@ -45,8 +44,6 @@ pronounced She-on :)
 
 ## Projects
 
----
-
 **[Letter Run](https://github.com/so-park/letterrun)** (January – June 2019)
 
 - Developed a desktop application for an educational game using Electron.
@@ -70,8 +67,6 @@ pronounced She-on :)
 ![GeoQuiz Gif](https://github.com/so-park/geoquiz-application/blob/master/images/quiz-demo.gif)
 
 ## Education
-
----
 
 **Seattle Pacific University, Seattle, WA** (September 2015 - June 2019)
 
