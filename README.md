@@ -5,8 +5,6 @@ pronounced She-on :)
 
 ## Skills
 
----
-
 - **Languages**: C#, C++, SQL, C, Linq, JavaScript, Python
 - **Technology**: Visual Studio, MSSMS, MySQL, Full Stack Development, Visual Studio Code, Unity, nodejs(Express), Github, Jenkins
 
