@@ -63,7 +63,7 @@ pronounced She-on :)
 - Utilized Canvas (Learning management tool) API and JavaScript to retrieve grade information and perform analysis.
 - Delegated tasks to other teammates and collaborated with each other to create reports with python(matplotlib).
 
-**[KEMI]** (January - March 2018)
+**KEMI** (January - March 2018)
 
 - Created a web service that enables users to share their meals and recommend food combos. 
 - Worked on back-end using Ruby on Rails and AWS (EC2).
