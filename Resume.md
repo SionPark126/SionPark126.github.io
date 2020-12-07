@@ -34,6 +34,8 @@ pronounced She-on :)
 - Integrated the quiz into the learning management tool Canvas to automatically update students’ grades.
 - Prepared data reports by extracting data and cross-list courses in Canvas using REST APIs.
 
+![GeoQuiz Gif](https://github.com/so-park/geoquiz-application/blob/master/images/quiz-demo.gif)
+
 **User Experience Test Intern, *Treatmo*** (June – August 2018, Seattle WA)
 
 - Tested builds and new features of their app and contributed insight on app design and function.
@@ -61,12 +63,10 @@ pronounced She-on :)
 - Utilized Canvas (Learning management tool) API and JavaScript to retrieve grade information and perform analysis.
 - Delegated tasks to other teammates and collaborated with each other to create reports with python(matplotlib).
 
-**[GeoQuiz](https://github.com/so-park/geoquiz-application)** (June - August 2018)
+**[KEMI]** (January - March 2018)
 
-- Utilized Canvas (Learning management tool) API and JavaScript to retrieve grade information and perform analysis.
-- Delegated tasks to other teammates and collaborated with each other to create reports with python(matplotlib).
-
-![GeoQuiz Gif](https://github.com/so-park/geoquiz-application/blob/master/images/quiz-demo.gif)
+- Created a web service that enables users to share their meals and recommend food combos. 
+- Worked on back-end using Ruby on Rails and AWS (EC2).
 
 ## Education
 
